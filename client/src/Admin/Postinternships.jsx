@@ -52,7 +52,7 @@ function Postinternships() {
           AdditionalInfo:additionalInfo,
   
       }
-  axios.post("https://internbackend-i2jk.onrender.com/api/internship",bodyJosn).then((res)=>{
+  axios.post("https://internshala-clone-89d6.onrender.com/api/internship",bodyJosn).then((res)=>{
       console.log(res.data)
     }).catch((err)=>
     console.log(err))

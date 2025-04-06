@@ -26,7 +26,7 @@ function Register() {
         email: email,
         password: password,
       };
-      axios.post("https://internbackend-i2jk.onrender.com/api/signup", bodyJson)
+      axios.post("https://internshala-clone-89d6.onrender.com/api/signup", bodyJson)
         .then((res) => {
           if (res.status === 201) {
             toast.success(res.data.message);

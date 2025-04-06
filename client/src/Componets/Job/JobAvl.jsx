@@ -13,7 +13,7 @@ const [isDivVisible,setDivVisible]=useState(false)
 useEffect(()=>{
   const fetchData= async()=>{
       try { 
-      const response= await axios.get(`https://internbackend-i2jk.onrender.com/api/job`)
+      const response= await axios.get(`https://internshala-clone-89d6.onrender.com/api/job`)
       setJobData(response.data)
   } catch (error) {
          console.log(error) 

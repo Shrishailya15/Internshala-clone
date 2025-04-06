@@ -16,7 +16,7 @@ function AdminLogin() {
         username: username,
         password: password
       }
-      axios.post("https://internbackend-i2jk.onrender.com/api/admin/adminLogin", bodyjson).then((res) => {
+      axios.post("https://internshala-clone-89d6.onrender.com/api/admin/adminLogin", bodyjson).then((res) => {
         console.log(res, "data is send")
         alert("success")
         navigate("/adminepanel")
